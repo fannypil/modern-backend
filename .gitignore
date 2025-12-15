@@ -1,0 +1,61 @@
+# Maven build
+/target/
+dependency-reduced-pom.xml
+release.properties
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+/out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Maven wrapper - keep the wrapper files (mvnw, .mvn) committed
+!/mvnw
+!/mvnw.cmd
+!/.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.properties
+
+# Logs and temp files
+*.log
+logs/
+tmp/
+*.tmp
+
+# Test reports
+/surefire-reports/
+/failsafe-reports/
+
+# Compiled classes, jars, wars, ears
+*.class
+*.jar
+*.war
+*.ear
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / secrets
+.env
+*.properties.local
+secret-*.yml
+*.jks
+*.keystore
+credentials.properties
+
+# Database files
+*.db
+*.sqlite
+*.h2.db
+
+# Misc
+.idea_modules/
+bower_components/
+node_modules/
+.vscode/
+.sass-cache/
